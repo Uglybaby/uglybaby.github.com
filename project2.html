@@ -112,7 +112,26 @@
 						<!-- Page content Goes here -->
 						
 						<!-- Here the portfolio description with display when someone click on any portfolio item don't edit anything here-->
-						<img src="img/1-1.png" width="1130">
+						<xmp>
+							<?xml version="1.0" encoding="UTF-8"?>
+							<!ELEMENT FilmLibrary (film*)>
+							<!ELEMENT film (title,directors,screenwriter,starring_actor,footage,country,lang,release_time,description,score)>
+							<!ELEMENT title (#PCDATA)>
+							<!ELEMENT directors (director+)>
+							<!ELEMENT director (#PCDATA)>
+							<!ELEMENT screenwriter (writer+)>
+							<!ELEMENT writer (#PCDATA)>
+							<!ELEMENT starring_actor (actor+)>
+							<!ELEMENT actor (#PCDATA)>
+							<!ELEMENT footage (#PCDATA)>
+							<!ELEMENT country (#PCDATA)>
+							<!ELEMENT lang (#PCDATA)>
+							<!ELEMENT release_time (#PCDATA)>
+							<!ELEMENT description (#PCDATA)>
+							<!ELEMENT score (#PCDATA)>
+							<!ATTLIST film category CDATA #REQUIRED >
+							<!ATTLIST title cover CDATA #REQUIRED>
+						</xmp>
 					</div>
 					<!-- Page content ends here -->
 				</div>
