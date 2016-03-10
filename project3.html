@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+
+
+	<!-- Site meta description and keywords -->
+	<meta name="description" content="JANStrap is a fully responsive business theme build with bootstrap 3.2 having three color options and 10+ pages with it.">
+	<meta name="keywords" content="JANStrap, JANPRA, Bootstrap, Business Theme">
+
+
+	<!-- favicon and apple touch icon code here -->
+	<link rel="apple-touch-icon" href="img/0.png" />
+	<link rel="shortcut icon" href="img/0.png" />
+
+
+	<!-- Title Of Page -->
+	<title>Project | Uglygirls</title>
+
+
+	<!-- Bootstrap And Font Awesome Style Sheets -->
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-awesome/font-awesome.min.css" type="text/css" />
+
+
+		<!-- **************************************************************************************************************************************************
+			These are the bootstrap and font-awesome style-sheets from CDN in case you don't want to load them from local storage uncomment them and comment above two lines.
+			****************************************************************************************************************************************************-->
+		<!--<link href="//maxcdn.bootstrapcdn.com/bootswatch/3.1.1/lumen/bootstrap.min.css" rel="stylesheet">
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">-->
+		
+		
+		<!-- Custom Style Sheets -->
+		<link rel="stylesheet" href="css/custom/custom.css" type="text/css" />
+		
+		
+	</head>
+	<!-- Body starts Here -->
+	<body>
+		<!-- Head Section starts here -->
+		<section id="head">
+
+			<!-- Navigation Bar Starts Here --> 
+			<div id="navbar">
+				<nav class="navbar navbar-fixed-top" role="navigation">
+					<div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#">Uglygirls</a>
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-right"> 
+
+								<!-- Menu Items starts here -->
+								<li><a href="index.html#header" data-url="#header">Home</a></li>
+								<li><a href="portfolio.html" data-url="#portfolio">Project</a></li>
+								<li><a href="work.html" >Work</a></li>
+							</ul>
+						</div><!-- /.navbar-collapse -->
+					</div><!-- /.container-fluid -->
+				</nav>
+			</div>
+			<div class="jumbotron header">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 text-center">
+							<h1>
+								<!-- Page heading goes here -->
+								
+								Project
+								
+								<!-- Page heading ends here -->
+							</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Head Section Ends Here -->
+		
+		<!-- Content Section Starts Here -->
+		<section id="content">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 heading text-center">
+						<div class="heading-text">
+							<h5>
+								<!-- Content heading goes here -->
+
+								Project
+
+								<!-- Content heading ends here -->
+							</h5>
+							<p class="heading-description">
+								<!-- Content Sort Description goes here -->
+								
+								project
+
+								<!-- Content Sort Description ends here -->
+							</p>
+						</div>
+					</div>
+					<div class="col-xs-12">
+						<!-- Page content Goes here -->
+						
+						<!-- Here the portfolio description with display when someone click on any portfolio item don't edit anything here-->
+						<xmp>
+							<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="FilmLibrary">
+		<xs:annotation>
+			<xs:documentation>Comment describing your root element</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="film">
+		<xs:complexType>
+			<xs:all>
+				<xs:element name="title">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:whiteSpace value="preserve"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="directors">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="director" type="xs:string" maxOccurs="unbounded"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="screenwriter">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="writer" type="xs:string" maxOccurs="unbounded"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="starring_actor">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="actor" type="xs:string" maxOccurs="unbounded"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="footage" minOccurs="1">
+					<xs:complexType mixed="true">
+						<xs:sequence>
+							<xs:element name="time" type="xs:integer"/>
+							<xs:element name="fenzhong" type="xs:string" fixed="分钟"/>
+							<xs:element name="left">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:pattern value="[(]?"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="country">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:enumeration value="英国"/>
+										<xs:enumeration value="中国大陆"/>
+										<xs:enumeration value="日本"/>
+										<xs:enumeration value="泰国"/>
+										<xs:enumeration value="中国香港"/>
+										<xs:enumeration value="德国"/>
+										<xs:enumeration value="西班牙"/>
+										<xs:enumeration value="阿拉伯"/>
+										<xs:enumeration value="法国"/>
+										<xs:enumeration value="韩国"/>
+										<xs:enumeration value="意大利"/>
+										<xs:enumeration value="俄国"/>
+										<xs:enumeration value=""/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="right">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:pattern value="[)]?"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="xiegang">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:pattern value="[/]?"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="country">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:whiteSpace value="preserve"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="lang" minOccurs="1">
+					<xs:complexType mixed="true">
+						<xs:sequence>
+							<xs:element name="language">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:enumeration value="英语"/>
+										<xs:enumeration value="汉语普通话"/>
+										<xs:enumeration value="日语"/>
+										<xs:enumeration value="泰语"/>
+										<xs:enumeration value="粤语"/>
+										<xs:enumeration value="德语"/>
+										<xs:enumeration value="西班牙语"/>
+										<xs:enumeration value="阿拉伯语"/>
+										<xs:enumeration value="法语"/>
+										<xs:enumeration value="韩语"/>
+										<xs:enumeration value="意大利语"/>
+										<xs:enumeration value="俄语"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="xiegang">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:pattern value="([/])?"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="release_time">
+					<xs:complexType mixed="true">
+						<xs:sequence>
+							<xs:element name="date" type="xs:date"/>
+							<xs:element name="left">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:pattern value="[(]?"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="country">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:enumeration value="英国"/>
+										<xs:enumeration value="中国大陆"/>
+										<xs:enumeration value="日本"/>
+										<xs:enumeration value="泰国"/>
+										<xs:enumeration value="中国香港"/>
+										<xs:enumeration value="德国"/>
+										<xs:enumeration value="西班牙"/>
+										<xs:enumeration value="阿拉伯"/>
+										<xs:enumeration value="法国"/>
+										<xs:enumeration value="韩国"/>
+										<xs:enumeration value="意大利"/>
+										<xs:enumeration value="俄国"/>
+										<xs:enumeration value=""/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="right">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:pattern value="[)]?"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="xiegang">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:pattern value="[/]?"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="description" type="xs:string"/>
+				<xs:element name="score">
+					<xs:simpleType>
+						<xs:restriction base="xs:decimal">
+							<xs:minInclusive value="1.0"/>
+							<xs:maxInclusive value="10.0"/>
+							<xs:fractionDigits value="1"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="series" minOccurs="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:whiteSpace value="preserve"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:all>
+			<xs:attribute name="category">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:whiteSpace value="preserve"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
+
+						</xmp>
+					</div>
+					<!-- Page content ends here -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Content Section ends here -->
+	
+
+	<!-- Script inclusion starts here -->
+
+	<!-- Jquery Inclusion -->
+	<script src="js/jquery/jQuery.min.js" type="text/javascript"></script>
+	<script src="js/jquery/jQueryUI.min.js" type="text/javascript"></script>
+
+
+	<!-- Adding Bootstratp -->
+	<script src="js/bootstrap/bootstrap.min.js" type="text/javascript"></script>
+
+	<!-- These are the CDN version of bootstarp and jquery in case you don't want to use them from localstorage then uncomment them and comment above 3 lines -->
+		<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>-->
+		
+		
+		<!-- custom javascript files -->
+		<script type="text/javascript" src="js/custom/tooltip.js"></script>
+		<script type="text/javascript" src="js/custom/social.js"></script>
+		<script type="text/javascript" src="js/custom/navbar.js"></script>
+		<script type="text/javascript" src="js/custom/portfolio.js"></script>
+	</body>
+	<!-- Body ends here -->
+	</html>
