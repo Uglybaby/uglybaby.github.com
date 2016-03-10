@@ -114,12 +114,14 @@
 						
 						<!-- Here the portfolio description with display when someone click on any portfolio item don't edit anything here-->
 						<xmp>
-							<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
 	<xs:element name="FilmLibrary">
-		<xs:annotation>
-			<xs:documentation>Comment describing your root element</xs:documentation>
-		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="film" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
 	</xs:element>
 	<xs:element name="film">
 		<xs:complexType>
@@ -152,51 +154,10 @@
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
-				<xs:element name="footage" minOccurs="1">
-					<xs:complexType mixed="true">
+				<xs:element name="footages">
+					<xs:complexType>
 						<xs:sequence>
-							<xs:element name="time" type="xs:integer"/>
-							<xs:element name="fenzhong" type="xs:string" fixed="分钟"/>
-							<xs:element name="left">
-								<xs:simpleType>
-									<xs:restriction base="xs:string">
-										<xs:pattern value="[(]?"/>
-									</xs:restriction>
-								</xs:simpleType>
-							</xs:element>
-							<xs:element name="country">
-								<xs:simpleType>
-									<xs:restriction base="xs:string">
-										<xs:enumeration value="英国"/>
-										<xs:enumeration value="中国大陆"/>
-										<xs:enumeration value="日本"/>
-										<xs:enumeration value="泰国"/>
-										<xs:enumeration value="中国香港"/>
-										<xs:enumeration value="德国"/>
-										<xs:enumeration value="西班牙"/>
-										<xs:enumeration value="阿拉伯"/>
-										<xs:enumeration value="法国"/>
-										<xs:enumeration value="韩国"/>
-										<xs:enumeration value="意大利"/>
-										<xs:enumeration value="俄国"/>
-										<xs:enumeration value=""/>
-									</xs:restriction>
-								</xs:simpleType>
-							</xs:element>
-							<xs:element name="right">
-								<xs:simpleType>
-									<xs:restriction base="xs:string">
-										<xs:pattern value="[)]?"/>
-									</xs:restriction>
-								</xs:simpleType>
-							</xs:element>
-							<xs:element name="xiegang">
-								<xs:simpleType>
-									<xs:restriction base="xs:string">
-										<xs:pattern value="[/]?"/>
-									</xs:restriction>
-								</xs:simpleType>
-							</xs:element>
+							<xs:element ref="footage" minOccurs="1" maxOccurs="unbounded"/>
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
@@ -207,81 +168,17 @@
 						</xs:restriction>
 					</xs:simpleType>
 				</xs:element>
-				<xs:element name="lang" minOccurs="1">
-					<xs:complexType mixed="true">
+				<xs:element name="langs">
+					<xs:complexType>
 						<xs:sequence>
-							<xs:element name="language">
-								<xs:simpleType>
-									<xs:restriction base="xs:string">
-										<xs:enumeration value="英语"/>
-										<xs:enumeration value="汉语普通话"/>
-										<xs:enumeration value="日语"/>
-										<xs:enumeration value="泰语"/>
-										<xs:enumeration value="粤语"/>
-										<xs:enumeration value="德语"/>
-										<xs:enumeration value="西班牙语"/>
-										<xs:enumeration value="阿拉伯语"/>
-										<xs:enumeration value="法语"/>
-										<xs:enumeration value="韩语"/>
-										<xs:enumeration value="意大利语"/>
-										<xs:enumeration value="俄语"/>
-									</xs:restriction>
-								</xs:simpleType>
-							</xs:element>
-							<xs:element name="xiegang">
-								<xs:simpleType>
-									<xs:restriction base="xs:string">
-										<xs:pattern value="([/])?"/>
-									</xs:restriction>
-								</xs:simpleType>
-							</xs:element>
+							<xs:element ref="lang" minOccurs="1" maxOccurs="unbounded"/>
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
-				<xs:element name="release_time">
-					<xs:complexType mixed="true">
+				<xs:element name="release_times">
+					<xs:complexType>
 						<xs:sequence>
-							<xs:element name="date" type="xs:date"/>
-							<xs:element name="left">
-								<xs:simpleType>
-									<xs:restriction base="xs:string">
-										<xs:pattern value="[(]?"/>
-									</xs:restriction>
-								</xs:simpleType>
-							</xs:element>
-							<xs:element name="country">
-								<xs:simpleType>
-									<xs:restriction base="xs:string">
-										<xs:enumeration value="英国"/>
-										<xs:enumeration value="中国大陆"/>
-										<xs:enumeration value="日本"/>
-										<xs:enumeration value="泰国"/>
-										<xs:enumeration value="中国香港"/>
-										<xs:enumeration value="德国"/>
-										<xs:enumeration value="西班牙"/>
-										<xs:enumeration value="阿拉伯"/>
-										<xs:enumeration value="法国"/>
-										<xs:enumeration value="韩国"/>
-										<xs:enumeration value="意大利"/>
-										<xs:enumeration value="俄国"/>
-										<xs:enumeration value=""/>
-									</xs:restriction>
-								</xs:simpleType>
-							</xs:element>
-							<xs:element name="right">
-								<xs:simpleType>
-									<xs:restriction base="xs:string">
-										<xs:pattern value="[)]?"/>
-									</xs:restriction>
-								</xs:simpleType>
-							</xs:element>
-							<xs:element name="xiegang">
-								<xs:simpleType>
-									<xs:restriction base="xs:string">
-										<xs:pattern value="[/]?"/>
-									</xs:restriction>
-								</xs:simpleType>
-							</xs:element>
+							<xs:element ref="release_time" minOccurs="1" maxOccurs="unbounded"/>
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
@@ -303,13 +200,141 @@
 					</xs:simpleType>
 				</xs:element>
 			</xs:all>
-			<xs:attribute name="category">
+			<xs:attribute name="category" use="required">
 				<xs:simpleType>
 					<xs:restriction base="xs:string">
 						<xs:whiteSpace value="preserve"/>
 					</xs:restriction>
 				</xs:simpleType>
 			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="footage">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:element name="time" type="xs:integer"/>
+				<xs:element name="fenzhong" type="xs:string" fixed="分钟"/>
+				<xs:element name="left">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[(]?"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="country">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="英国"/>
+							<xs:enumeration value="中国大陆"/>
+							<xs:enumeration value="日本"/>
+							<xs:enumeration value="泰国"/>
+							<xs:enumeration value="中国香港"/>
+							<xs:enumeration value="德国"/>
+							<xs:enumeration value="西班牙"/>
+							<xs:enumeration value="阿拉伯"/>
+							<xs:enumeration value="法国"/>
+							<xs:enumeration value="韩国"/>
+							<xs:enumeration value="意大利"/>
+							<xs:enumeration value="俄国"/>
+							<xs:enumeration value="美国"/>
+							<xs:enumeration value=""/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="right">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[)]?"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="xiegang">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[/]?"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="lang">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:element name="language">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="英语"/>
+							<xs:enumeration value="汉语普通话"/>
+							<xs:enumeration value="日语"/>
+							<xs:enumeration value="泰语"/>
+							<xs:enumeration value="粤语"/>
+							<xs:enumeration value="德语"/>
+							<xs:enumeration value="西班牙语"/>
+							<xs:enumeration value="阿拉伯语"/>
+							<xs:enumeration value="法语"/>
+							<xs:enumeration value="韩语"/>
+							<xs:enumeration value="意大利语"/>
+							<xs:enumeration value="俄语"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="xiegang">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="([/])?"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="release_time">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:element name="date" type="xs:date"/>
+				<xs:element name="left">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[(]?"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="country">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="英国"/>
+							<xs:enumeration value="中国大陆"/>
+							<xs:enumeration value="日本"/>
+							<xs:enumeration value="泰国"/>
+							<xs:enumeration value="中国香港"/>
+							<xs:enumeration value="德国"/>
+							<xs:enumeration value="西班牙"/>
+							<xs:enumeration value="阿拉伯"/>
+							<xs:enumeration value="法国"/>
+							<xs:enumeration value="韩国"/>
+							<xs:enumeration value="意大利"/>
+							<xs:enumeration value="俄国"/>
+							<xs:enumeration value="美国"/>
+							<xs:enumeration value=""/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="right">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[)]?"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="xiegang">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[/]?"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 </xs:schema>
