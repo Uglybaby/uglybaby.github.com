@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="FilmLibrary.css" type="text/css"?>
+<FilmLibrary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/admin/Desktop/XML/FilmLibrary.xsd">
+	<film category="剧情 / 喜剧 / 传记" id="cover1">
+		<title>奋斗的乔伊 Joy</title>
+		<directors>
+			<director>大卫·O·拉塞尔/</director>
+		</directors>
+		<screenwriter>
+			<writer>大卫·O·拉塞尔/</writer>
+			<writer>安妮·玛莫罗/</writer>
+		</screenwriter>
+		<starring_actor>
+			<actor>詹妮弗·劳伦斯/</actor>
+			<actor>罗伯特·德尼罗/</actor>
+			<actor>埃德加·拉米雷兹/</actor>
+			<actor>布莱德利·库珀/</actor>
+			<actor>戴安·拉德/</actor>
+		</starring_actor>
+		<footages>
+			<footage>
+				<time>124</time>
+				<fenzhong>分钟</fenzhong>
+				<left/>
+				<country/>
+				<right/>
+				<xiegang/>
+			</footage>
+		</footages>
+		<country>美国</country>
+		<langs>
+			<lang>
+				<language>英语</language>
+				<xiegang>/</xiegang>
+			</lang>
+			<lang>
+				<language>西班牙语</language>
+				<xiegang/>
+			</lang>
+		</langs>
+		<release_times>
+			<release_time>
+				<date>2015-12-25</date>
+				<left>(</left>
+				<location>美国</location>
+				<right>)</right>
+				<xiegang/>
+			</release_time>
+		</release_times>
+		<description>电影《拖把女王》讲述上世纪八十年代一名居住在长岛的单身母亲Joy通过自身努力，贩卖神奇拖把发家致富，最终成为一代拖把女王的故事。
+	电影《拖把女王》将是詹妮弗·劳伦斯和布拉德利·库珀在银幕上的四度合作，老戏骨罗伯特·德尼罗也将加盟，电影已于近日在波士顿开拍，由大卫·O·拉塞尔执导，已定于圣诞节当日在北美公映。</description>
+		<score>6.5</score>
+	</film>
+	<film category="动画 / 奇幻" id="cover2">
+		<title>小王子 Le Petit Prince</title>
+		<directors>
+			<director>马克·奥斯本/</director>
+		</directors>
+		<screenwriter>
+			<writer>伊连娜·布里纳尔/</writer>
+			<writer>鲍勃·佩尔西凯蒂/</writer>
+			<writer>安东尼·德·圣-埃克苏佩里/</writer>
+		</screenwriter>
+		<starring_actor>
+			<actor> 杰夫·布里吉斯/</actor>
+			<actor>麦肯吉·弗依/</actor>
+			<actor>瑞秋·麦克亚当斯/</actor>
+			<actor>瑞利·奥斯本/</actor>
+			<actor>詹姆斯·弗兰科/</actor>
+		</starring_actor>
+		<footages>
+			<footage>
+				<time>108</time>
+				<fenzhong>分钟</fenzhong>
+				<left></left>
+				<country></country>
+				<right></right>
+				<xiegang></xiegang>
+			</footage>
+		</footages>
+		<country>法国 / 美国</country>
+		<langs>
+			<lang>
+				<language>英语</language>
+				<xiegang>/</xiegang>
+			</lang>
+			<lang>
+				<language>法语</language>
+				<xiegang></xiegang>
+			</lang>
+		</langs>
+		<release_times>
+			<release_time>
+				<date>2015-10-16</date>
+				<left>(</left>
+				<location>中国大陆</location>
+				<right>)</right>
+				<xiegang>/</xiegang>
+			</release_time>
+			<release_time>
+				<date> 2015-07-29</date>
+				<left>(</left>
+				<location>法国</location>
+				<right>)</right>
+				<xiegang></xiegang>
+			</release_time>
+		</release_times>
+		<description>灰蒙蒙的都市丛林，美丽的小女孩眼神中没有渴望和雀跃，她跟随妈妈穿梭钢筋水泥的光影之间，按照社会既定法则亦步亦趋。她的未来似乎早被注定和规划，即使生日礼物也找不到些许惊奇。为了进入好学校，母女俩搬到郊外一幢独栋房子里，旁边则是一间与周遭格格不入的破房子。某天，一个飞机螺旋桨突然破墙而入，从而建立起女孩和隔壁那个怪爷爷的友谊。老人自称曾是一名飞行员，年轻时他迫降沙漠，在那里认识了有着纯真心灵的小王子。女孩听老人讲述着有着童话般瑰丽色彩的往事，不知不觉间心驰神往…… 
+　　本片根据安东尼·德·圣-埃克苏佩里的经典同名作品改编。</description>
+		<score>8.1</score>
+	</film>
+	<film category="动作 / 惊悚 / 冒险" id="cover3">
+		<title>007：幽灵党 Spectre</title>
+		<directors>
+			<director>萨姆·门德斯/</director>
+		</directors>
+		<screenwriter>
+			<writer>约翰·洛根/</writer>
+			<writer>尼尔·珀维斯/</writer>
+			<writer>罗伯特·韦德/</writer>
+			<writer>杰斯·巴特沃斯/</writer>
+			<writer>伊恩·弗莱明/</writer>
+		</screenwriter>
+		<starring_actor>
+			<actor>丹尼尔·克雷格/</actor>
+			<actor>克里斯托弗·沃尔兹/</actor>
+			<actor>蕾雅·赛杜/</actor>
+			<actor>本·卫肖/</actor>
+			<actor>娜奥米·哈里斯/</actor>
+		</starring_actor>
+		<footages>
+			<footage>
+				<time>148</time>
+				<fenzhong>分钟</fenzhong>
+				<left></left>
+				<country></country>
+				<right></right>
+				<xiegang></xiegang>
+			</footage>
+		</footages>
+		<country>英国 / 美国</country>
+		<langs>
+			<lang>
+				<language>英语</language>
+				<xiegang>/</xiegang>
+			</lang>
+			<lang>
+				<language>西班牙语</language>
+				<xiegang>/</xiegang>
+			</lang>
+			<lang>
+				<language>德语</language>
+				<xiegang>/</xiegang>
+			</lang>
+			<lang>
+				<language>意大利语</language>
+				<xiegang>/</xiegang>
+			</lang>
+			<lang>
+				<language>法语</language>
+				<xiegang></xiegang>
+			</lang>
+		</langs>
+		<release_times>
+			<release_time>
+				<date>2015-11-13</date>
+				<left>(</left>
+				<location>中国大陆</location>
+				<right>)</right>
+				<xiegang>/</xiegang>
+			</release_time>
+			<release_time>
+				<date>2015-10-26</date>
+				<left>(</left>
+				<location>英国</location>
+				<right>)</right>
+				<xiegang>/</xiegang>
+			</release_time>
+			<release_time>
+				<date>2015-11-06</date>
+				<left>(</left>
+				<location>美国</location>
+				<right>)</right>
+				<xiegang></xiegang>
+			</release_time>
+		</release_times>
+		<description>一个来自过去的加密信息让詹姆斯·邦德开始了一个神秘任务，从墨西哥城到最终的罗马，在那儿他邂逅了美艳的露琪亚·斯琪拉（莫妮卡·贝鲁奇 Monica Bellucci 饰），而她则是一名臭名昭著的意大利黑手党寡妇。邦德潜入到了一个密会中，揭开了一个名叫“幽灵党”的邪恶组织背后的秘密。 
+　　然而，远在伦敦的国家安全中心的新任负责人马克思·登彼（安德鲁·斯考特 Andrew Scott 饰）怀疑邦德这次行动的目的，并挑战M（拉尔夫·费恩斯 Ralph Fiennes 饰）掌权的军情六处的地位。邦德暗中召集了钱班霓（奈奥米·哈莉斯 Naomi Harries 饰）和Q博士（本·威肖 Ben Whishaw 饰），协助他寻找他宿敌的女儿——玛德琳·斯旺（蕾雅·赛杜 Léa Seydoux 饰）的下落，玛德琳·斯旺手里握有解开幽灵党秘密的线索。作为一名杀手的女儿，斯旺比绝大多数人更了解邦德。 
+　　正当邦德冒险潜入“幽灵党”中心时，他得知自己与他寻找的敌人（克里斯托弗·沃尔兹 Christoph Waltz 饰）之间有着骇人的联系……</description>
+		<score>6.1</score>
+	</film>
+	<film category="剧情 / 喜剧 / 战争" id="cover4">
+		<title>小男孩 Little Boy</title>
+		<directors>
+			<director>阿加多·蒙特沃德</director>
+		</directors>
+		<screenwriter>
+			<writer>阿加多·蒙特沃德</writer>
+			<writer>Pepe Portillo</writer>
+		</screenwriter>
+		<starring_actor>
+			<actor> 雅各布·萨尔瓦提</actor>
+			<actor>凯文·詹姆斯</actor>
+			<actor>迈克尔·拉帕波特</actor>
+			<actor>大卫·亨瑞</actor>
+			<actor>艾米丽·沃森</actor>
+		</starring_actor>
+		<footages>
+			<footage>
+				<time>106</time>
+				<fenzhong>分钟</fenzhong>
+				<left></left>
+				<country></country>
+				<right></right>
+				<xiegang></xiegang>
+			</footage>
+		</footages>
+		<country>墨西哥 / 美国</country>
+		<langs>
+			<lang>
+				<language>英语</language>
+				<xiegang></xiegang>
+			</lang>
+		</langs>
+		<release_times>
+			<release_time>
+				<date>2015-04-24</date>
+				<left>(</left>
+				<location>美国</location>
+				<right>)</right>
+				<xiegang></xiegang>
+			</release_time>
+		</release_times>
+		<description>故事发生在二战时期的一个美国沿海小镇，八岁小男孩Pepper（雅各布·萨尔瓦提 Jakob Salvati 饰）天生矮小瘦弱，为此没少受同龄人欺负，还被取绰号为“小男孩”（little boy）。他最好的朋友兼搭档，就是自己高大魁梧的父亲詹姆斯（迈克尔·拉帕波特 Michael Rapaport 饰）。在父亲的教导陪伴下，Pepper渡过了一段美好的时光。直到父亲应召入伍，投入到第二次世界大战的战场中去。 
+　　就在Pepper期待父亲回家时，噩耗传来，他的父亲在菲律宾被日军虏为战俘，生死未卜。而此同时，Pepper和他哥哥London（大卫·亨瑞 David Henrie 饰）将战争仇恨发泄在镇上的一个日本人桥本身上，为此兄弟俩都接受了相应的惩罚。神父为了教育Pepper，将一个“古老的清单”交给他，只要他把清单上的任务都完成，他就能拥有可以移动大山的信念和力量，从而就能把他的父亲从二战战场中带回来。这个清单的其中一项，就是和日本人桥本成为朋友……</description>
+		<score>8.1</score>
+	</film>
+	<film category="剧情 / 喜剧 / 同性 / 家庭" id="cover5">
+		<title>与外婆同行 Grandma</title>
+		<directors>
+			<director>保罗·韦兹/</director>
+		</directors>
+		<screenwriter>
+			<writer>保罗·韦兹/</writer>
+		</screenwriter>
+		<starring_actor>
+			<actor>莉莉·汤姆林/</actor>
+			<actor>朱莉娅·加纳/</actor>
+			<actor>马西娅·盖伊·哈登/</actor>
+			<actor>朱迪·格雷尔/</actor>
+			<actor>拉弗恩·考克斯/</actor>
+		</starring_actor>
+		<footages>
+			<footage>
+				<time>79</time>
+				<fenzhong>分钟</fenzhong>
+				<left></left>
+				<country></country>
+				<right></right>
+				<xiegang></xiegang>
+			</footage>
+		</footages>
+		<country>美国</country>
+		<langs>
+			<lang>
+				<language>英语</language>
+				<xiegang></xiegang>
+			</lang>
+		</langs>
+		<release_times>
+			<release_time>
+				<date>2015-09-18</date>
+				<left>(</left>
+				<location>美国</location>
+				<right>)</right>
+				<xiegang></xiegang>
+			</release_time>
+		</release_times>
+		<description>艾丽·里德（莉莉·汤姆林 Lily Tomlin 饰）是一个过气的诗人，又与交往4个月的女友突然分手，不愿与人往来的她还来不及感伤，18岁的孙女塞奇（朱莉娅·加纳 Julia Garner 饰）匆忙赶来，打算借钱堕胎，没钱的她只好带孙女，逐一造访久未见面的老友和前女友，这段经历人情冷暖的短暂旅程，改变了祖孙两人，也意外挖出许多秘密。</description>
+		<score>7.7</score>
+	</film>
+</FilmLibrary>

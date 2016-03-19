@@ -1,0 +1,114 @@
+film{
+	display:-moz-box;
+	display:-webkit-box;
+	display:box;
+	width:800px;
+	border:2px solid Gray;
+	display: block;
+	position: relative;
+}
+title{
+	display: block;
+	color: rgb(0,0,0);
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:20px; 
+    position: relative;
+    left: 100px;
+}
+directors{
+	display: block;
+	color:rgb(94,124,159);
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:15px;
+    position: relative;
+    left: 100px;
+}
+screenwriter{
+	display: block;
+	color:rgb(94,124,159);
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:15px;
+    position: relative;
+    left: 100px;
+}
+starring_actor{
+	display: block;
+	color:rgb(94,124,159);
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:15px;
+    position: relative;
+    left: 100px;
+}
+footages{
+	display: block;
+	color: rgb(0,0,0);
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:15px;
+    position: relative;
+    left: 100px;
+}
+country{
+	display: block;
+	color: rgb(0,0,0);
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:15px;
+    position: relative;
+    left: 100px;
+}
+langs{
+	display: block;
+	color: rgb(0,0,0);
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:15px;
+    position: relative;
+    left: 100px;
+}
+release_times{
+	display: block;
+	color: rgb(0,0,0);
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:15px;
+    position: relative;
+    left: 100px;
+}
+description{
+	display: block;
+	color: rgb(0,0,0);
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:15px;
+    width: 500px;
+    position: relative;
+    left: 100px;
+}
+score{
+	display: block;
+	color: rgb(0,0,0);
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:30px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+xiegang{
+	color: solid #808080;
+}
+#cover1{
+	background-image: url('Joy.jpg');
+	background-repeat: no-repeat;
+}
+#cover2{
+	background-image: url('Le Petit Prince.jpg');
+	background-repeat: no-repeat;
+}
+#cover3{
+	background-image: url('Spectre.jpg');
+	background-repeat: no-repeat;
+}
+#cover4{
+	background-image: url('Little Boy.jpg');
+	background-repeat: no-repeat;
+}
+#cover5{
+	background-image: url('Grandma.jpg');
+	background-repeat: no-repeat;
+}

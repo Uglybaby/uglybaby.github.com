@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="moviesheet.xsl"?>
+<Group num="5">
+	<groupdes>
+		<name>Uglygirls</name>
+		<memberNum>3</memberNum>
+		<topic>电影</topic>
+		<lucky>uglybaby</lucky>
+	</groupdes>
+	<members>
+		<member id="1">
+			<name>王琪</name>
+			<number>71113410</number>
+			<sex>女</sex>
+			<constellation>处女座</constellation>
+			<duty>组长担当、卖萌担当</duty>
+		</member>
+		<member id="2">
+			<name>吴紫静</name>
+			<number>71113405</number>
+			<sex>女</sex>
+			<constellation>天蝎座</constellation>
+			<duty>身高担当、体重担当</duty>
+		</member>
+		<member id="3">
+			<name>鲍悦</name>
+			<number>71113208</number>
+			<sex>女</sex>
+			<constellation>天秤座</constellation>
+			<duty>长腿担当、力量担当</duty>
+		</member>
+	</members>
+</Group>
