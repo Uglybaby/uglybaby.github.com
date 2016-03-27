@@ -28,7 +28,7 @@
 				<div style="float: left; text-align: left; margin-left: 20px; line-height: 1.5em;color:#fff;">
 					<xsl:value-of select="memberNum"/>
 					<br/>
-					<xsl:value-of select="topic"/><a href="FilmLibrary_css.xml">电影浏览</a>
+					<xsl:value-of select="topic"/><a href="FilmLibrary_css.xml">  查看电影 | </a><a href="FilmLibrary_xsl.xml">电影浏览</a>
 					<br/>
 					<xsl:value-of select="lucky"/>
 					<br/>

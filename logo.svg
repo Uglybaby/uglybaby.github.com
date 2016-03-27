@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-flat-20030114.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+	<desc>
+		<!-- put a description here -->
+	</desc>
+	<g>
+		<text x="80" y="50">仅表示队名，不代表个人</text>
+		<ellipse cx="180" cy="150" rx="50" ry="40" style="fill:#ffcc66"/>
+		<circle cx="160" cy="150" r="8" fill="white"/>
+		<circle cx="200" cy="150" r="8" fill="white"/>
+		<circle cx="157" cy="145" r="2" fill="black">
+			<animateTransform attributeName="transform" begin="0s" dur="10s" type="rotate" from="0 157 145" to="360 165 153" repeatCount="indefinite"/>
+		</circle>
+		<circle cx="197" cy="145" r="2" fill="black">
+			<animateTransform attributeName="transform" begin="0s" dur="10s" type="rotate" from="0 197 145" to="360 205 153" repeatCount="indefinite"/>
+		</circle>
+		<path d="M160 170 Q 180 185, 200 170" stroke="red" fill="transparent"/>
+		<path d="M150 120 Q 120 140, 110 160" stroke="black" fill="transparent"/>
+		<path d="M165 120 Q 120 80, 110 120" stroke="black" fill="transparent"/>
+		<path d="M160 120 Q 120 110, 110 150" stroke="black" fill="transparent"/>
+		<path d="M170 120 Q 160 140, 145 150" stroke="black" fill="transparent"/>
+		<path d="M180 120 Q 170 140, 180 150" stroke="black" fill="transparent"/>
+		<path d="M190 120 Q 215 140, 220 150" stroke="black" fill="transparent"/>
+		<path d="M175 120 Q 165 80, 140 90" stroke="black" fill="transparent"/>
+		<path d="M185 120 Q 180 90, 190 80" stroke="black" fill="transparent"/>
+		<path d="M195 120 Q 210 80, 250 110" stroke="black" fill="transparent"/>
+		<path d="M200 120 Q 220 110, 260 150" stroke="black" fill="transparent"/>
+		<ellipse cx="80" cy="190" rx="50" ry="40" style="fill:#ffcc66"/>
+		<circle cx="60" cy="190" r="8" fill="white"/>
+		<circle cx="100" cy="190" r="8" fill="white"/>
+		<circle cx="55" cy="190" r="2" fill="black">
+			<animateTransform attributeName="transform" begin="0s" dur="1s" type="skewX" from="0" to="3" repeatCount="indefinite"/>
+		</circle>
+		<circle cx="95" cy="190" r="2" fill="black">
+			<animateTransform attributeName="transform" begin="0s" dur="1s" type="skewX" from="0" to="3" repeatCount="indefinite"/>
+		</circle>
+		<path d="M60 210 Q 80 230, 100 210" stroke="red" fill="transparent"/>
+		<path d="M27 180 Q 80 120, 133 180" stroke="black" fill="black"/>
+		<ellipse cx="280" cy="190" rx="50" ry="40" style="fill:#ffcc66"/>
+		<circle cx="260" cy="190" r="8" fill="white"/>
+		<circle cx="300" cy="190" r="8" fill="white"/>
+		<circle cx="255" cy="190" r="2" fill="black">
+			<animateTransform attributeName="transform" begin="0s" dur="1s" type="skewX" from="0" to="3" repeatCount="indefinite"/>
+		</circle>
+		<circle cx="295" cy="190" r="2" fill="black">
+			<animateTransform attributeName="transform" begin="0s" dur="1s" type="skewX" from="3" to="0" repeatCount="indefinite"/>
+		</circle>
+		<path d="M227 190 Q 240 160, 270 150 T 230 190" stroke="black" fill="black"/>
+		<path d="M260 210 Q 280 230, 300 210" stroke="red" fill="transparent"/>
+		<path d="M331 190 Q 325 160, 290 150 T 330 190" stroke="black" fill="black"/>
+		<!-- your graphic here -->
+	</g>
+</svg>
